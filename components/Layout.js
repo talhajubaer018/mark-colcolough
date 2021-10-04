@@ -2,6 +2,7 @@ import React from 'react'
 
 import LayoutStyles from '../styles/Layout.module.css'
 import Header from './Header'
+import Footer from './Footer'
 
 const Layout = ({ children }) => {
   return (
@@ -10,7 +11,7 @@ const Layout = ({ children }) => {
       <main className={LayoutStyles.main}>
         {children}
       </main>
-      footer
+      <Footer />
     </div>
   )
 }
