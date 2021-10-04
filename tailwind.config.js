@@ -8,6 +8,7 @@ module.exports = {
           500: '#C3872C',
         },
         customTeal: {
+          200: '#E4EEF1',
           500: '#62C8D8'
         },
       },
