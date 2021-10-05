@@ -11,8 +11,12 @@ module.exports = {
           200: '#E4EEF1',
           500: '#62C8D8'
         },
+        customGray: {
+          700: '#707070'
+        }
       },
       fontSize: {
+        14: '0.875rem !important',
         15: '0.9375rem !important',
         16: '1rem',
         20: '1.25rem !important',
