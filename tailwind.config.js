@@ -12,6 +12,13 @@ module.exports = {
           500: '#62C8D8'
         },
       },
+      fontSize: {
+        15: '0.9375rem !important',
+        16: '1rem',
+        20: '1.25rem !important',
+        25: '1.5625rem',
+        40: '2.5rem',
+      },
       gridTemplateColumns: {
         '1/2': '1fr 2fr'
       },
