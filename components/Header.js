@@ -1,21 +1,27 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+
+import Navbar from './Navbar'
 
 const Header = () => {
+  const [navItems, setNavItems] = useState([])
+
+  const fetchData = async() => {
+    const req = await axios.get('/data/navItems.json')
+    setNavItems(req.data.navItems)
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, [])
+
   return (
     <header className='flex place-items-center py-4'>
       <div className='mr-auto'>
         <img className='w-3/5' src='/images/logo.png' />
       </div>
-      <nav className='flex justify-between place-items-center text-center w-3/4 text-customYellow-500'>
-        <h4>How I can help</h4>
-        <h4>What does it cost?</h4>
-        <h4>What do others say?</h4>
-        <h4>Meet Mark</h4>
-        <h4>Popular questions</h4>
-        <h4>Locations</h4>
-        <h4>Get in touch</h4>
-        <h4>Dansk</h4>
-      </nav>
+      <Navbar navItems={navItems}/>
+
     </header>
   )
 }
