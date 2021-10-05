@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className='container w-full mx-auto'>
       <Header />
-      <main className={LayoutStyles.main}>
+      <main>
         {children}
       </main>
       <Footer />
