@@ -1,22 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-// import { meetMarkData } from '../db/meetMarkDb'
-
-const meetMark = ({  }) => {
-
+const meetmark = ({  }) => {
   const [meetMark, setMeetMark] = useState([])
 
   const fetchData = async() => {
     const req = await axios.get('/data/meetMark.json')
     setMeetMark(req.data.meetMarkData)
   }
-
   useEffect(() => {
-
     fetchData()
   }, [])
-
 
   return (
     <div className='py-8'>
@@ -38,10 +32,9 @@ const meetMark = ({  }) => {
             <p>I offer you a safe setting, in complete confidence, from where you can explore your thoughts, feelings and experiences. My practice encompasses individual psychotherapy and couples counselling. I have two clinics, one in Svendborg and the other centrally located in downtown Copenhagen. My professional background and extensive experience will support you in your personal development.</p>
           </div>
         </div>
-
       </div>
     </div>
   )
 }
 
-export default meetMark
+export default meetmark
