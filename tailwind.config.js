@@ -12,7 +12,8 @@ module.exports = {
           500: '#62C8D8'
         },
         customGray: {
-          700: '#707070'
+          700: '#707070',
+          900: '#4B4B4B'
         }
       },
       fontSize: {
