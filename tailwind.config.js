@@ -19,10 +19,11 @@ module.exports = {
       fontSize: {
         14: '0.875rem !important',
         15: '0.9375rem !important',
-        16: '1rem',
+        16: '1rem !important',
+        18: '1.125rem !important',
         20: '1.25rem !important',
-        25: '1.5625rem',
-        40: '2.5rem',
+        25: '1.5625rem !important',
+        40: '2.5rem !important',
       },
       gridTemplateColumns: {
         '1/2': '1fr 2fr'
