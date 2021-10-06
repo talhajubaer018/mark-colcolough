@@ -21,7 +21,7 @@ const howicanhelp = ({  }) => {
         {services.map(service => (
         <div className='mb-16'>
           <div className='flex gap-x-4'>
-            <div className='sm:w-1/4 lg:w-auto mt-1'>
+            <div className='sm:w-1/2 lg:w-auto mt-1'>
               <img src={service.image} />
             </div>
             <div className='text-customGray-900 font-light'>
