@@ -7,8 +7,8 @@ const howicanhelp = ({  }) => {
   const [services, setServices] = useState([])
 
   const fetchData = async() => {
-    const req = await axios.get('/data/howICanHelp.json')
-    setServices(req.data.howICanHelp)
+    const { data } = await axios.get('/data/data.json')
+    setServices(data.howICanHelp)
   }
   useEffect(() => {
     fetchData()

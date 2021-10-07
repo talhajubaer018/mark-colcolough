@@ -7,8 +7,8 @@ const Header = () => {
   const [navItems, setNavItems] = useState([])
 
   const fetchData = async() => {
-    const req = await axios.get('/data/navItems.json')
-    setNavItems(req.data.navItems)
+    const { data } = await axios.get('/data/data.json')
+    setNavItems(data.navItems)
   }
 
   useEffect(() => {

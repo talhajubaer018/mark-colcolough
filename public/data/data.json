@@ -1,0 +1,170 @@
+{
+  "meetMarkData": [
+    {
+      "id": 1,
+      "title": "Hello",
+      "text" : "To offer you individual psychotherapy, couples counselling, acute couples therapy, marriage counselling and family therapy, I have undertaken practice, reflection, own therapy, ongoing training and professional supervision in England and Denmark since 2004. I hold an MA in Psychosynthesis Psychotherapy with Merit from the University of East London, in 2011."
+    },
+    {
+      "id": 2,
+      "title": "Professional orientation",
+      "text" : "My psychotherapeutic practice revolves around psychosynthesis, and is further inspired by process oriented psychology, as well as Jungian, humanistic and transpersonal elements."
+    },
+    {
+      "id": 3,
+      "title": "Qualifying educational background",
+      "text" : "I am an accredited member of two professional organisations: UKCP (UK Council for Psychotherapy) and EFPP (European Federation for Psychosynthesis Psychotherapy). I am also a member of the Danish C.G. Jung Union."
+    },
+    {
+      "id": 4,
+      "title": "Further education and supervision",
+      "text" : "To keep my professional training ajour I annually attend international courses, lectures and workshops. I receive individual supervision via UKCP. Supervision helps me hold ethical considerations, illuminates the unconscious relations in the therapy room and also provides a space to consider specific challenges."
+    },
+    {
+      "id": 5,
+      "title": "Teaching and lecturing",
+      "text" : "I have international teaching and lecturing experience within psychotherapy, and have held workshops at annual psychotherapy conferences."
+    }
+  ],
+  "privacy": [
+    {
+      "id": 1,
+      "title": "What is Lorem Ipsum?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 2,
+      "title": "Why do we use it?",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    }
+  ],
+  "howICanHelp": [
+    {
+      "id": 1,
+      "image": "/icons/icon-1.png",
+      "title": "Individual psychotherapy",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    },
+    {
+      "id": 2,
+      "image": "/icons/icon-2.png",
+      "title": "Couples counselling",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    },
+    {
+      "id": 3,
+      "image": "/icons/icon-3.png",
+      "title": "Business coaching",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    },
+    {
+      "id": 4,
+      "image": "/icons/icon-4.png",
+      "title": "Choosing the right access plan for you",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    },
+    {
+      "id": 5,
+      "image": "/icons/icon-5.png",
+      "title": "Free 15-minute conversation",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    },
+    {
+      "id": 6,
+      "image": "/icons/icon-6.png",
+      "title": "Online sessions - or in person?",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    },
+    {
+      "id": 7,
+      "image": "/icons/icon-7.png",
+      "title": "Do you have a referral from your Doctor?",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    },
+    {
+      "id": 8,
+      "image": "/icons/icon-8.png",
+      "title": "Your place or mine?",
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+    }
+  ],
+  "whatDoOthersSay": [
+    {
+      "id": 1,
+      "name": "Paul Smith",
+      "age": "37",
+      "text1" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "text2" : "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 2,
+      "name": "Sam Smith",
+      "age": "22",
+      "text1" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "text2" : "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 3,
+      "name": "Steve Smith",
+      "age": "40",
+      "text1" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "text2" : "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 4,
+      "name": "Paul Smith",
+      "age": "37",
+      "text1" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "text2" : "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 5,
+      "name": "Sam Smith",
+      "age": "22",
+      "text1" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "text2" : "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 6,
+      "name": "Steve Smith",
+      "age": "40",
+      "text1" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "text2" : "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ],
+  "navItems": [
+    {
+      "id": 1,
+      "title": "How I can help"
+    },
+    {
+      "id": 2,
+      "title": "What does it cost?"
+    },
+    {
+      "id": 3,
+      "title": "What do others say?"
+    },
+    {
+      "id": 4,
+      "title": "Meet Mark"
+    },
+    {
+      "id": 5,
+      "title": "Popular questions"
+    },
+    {
+      "id": 6,
+      "title": "Locations"
+    },
+    {
+      "id": 7,
+      "title": "Get in touch"
+    },
+    {
+      "id": 8,
+      "title": "Dansk"
+    }
+  ]
+
+}

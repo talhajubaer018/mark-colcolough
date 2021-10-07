@@ -5,8 +5,8 @@ const meetmark = ({  }) => {
   const [meetMark, setMeetMark] = useState([])
 
   const fetchData = async() => {
-    const req = await axios.get('/data/meetMark.json')
-    setMeetMark(req.data.meetMarkData)
+    const { data } = await axios.get('/data/data.json')
+    setMeetMark(data.meetMarkData)
   }
   useEffect(() => {
     fetchData()

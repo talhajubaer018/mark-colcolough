@@ -7,8 +7,8 @@ const privacy = ({  }) => {
   const [privacy, setPrivacy] = useState([])
 
   const fetchData = async() => {
-    const req = await axios.get('/data/privacy.json')
-    setPrivacy(req.data.privacy)
+    const { data } = await axios.get('/data/data.json')
+    setPrivacy(data.privacy)
   }
   useEffect(() => {
     fetchData()
