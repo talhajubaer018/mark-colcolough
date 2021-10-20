@@ -1,4 +1,21 @@
 {
+  "services": [
+    {
+      "id": 1,
+      "icon": "/icons/icon-psychotherapy.png",
+      "text" : "Personal Psychotherapy"
+    },
+    {
+      "id": 2,
+      "icon": "/icons/icon-couples.png",
+      "text" : "Couples Counselling"
+    },
+    {
+      "id": 3,
+      "icon": "/icons/icon-coaching.png",
+      "text" : "Business Coaching"
+    }
+  ],
   "meetMarkData": [
     {
       "id": 1,
@@ -132,6 +149,40 @@
       "text2" : "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   ],
+  "booking": [
+    {
+      "id": 1,
+      "question": "When can we meet?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    },
+    {
+      "id": 2,
+      "question": "What is your cancellation?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    },
+    {
+      "id": 3,
+      "question": "How do i book?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    }
+  ],
+  "paymentFAQ": [
+    {
+      "id": 1,
+      "question": "Which credit cards may I use?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    },
+    {
+      "id": 2,
+      "question": "Can I get a receipt?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    },
+    {
+      "id": 3,
+      "question": "Do you issue a refund?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    }
+  ],
   "navItems": [
     {
       "id": 1,
@@ -164,6 +215,139 @@
     {
       "id": 8,
       "title": "Dansk"
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "image": "/images/logo.png",
+      "popular": "",
+      "header": "HOURLY RATES",
+      "subHeader": "Book support by the hour",
+      "description": "",
+      "hourlyRates": [
+        {
+          "id": 1,
+          "popular": "Most Popular",
+          "amount": "999 kr.",
+          "time": "60 min."
+        },
+        {
+          "id": 2,
+          "popular": " ",
+          "amount": "1399 kr.",
+          "time": "90 min."
+        },
+        {
+          "id": 3,
+          "popular": " ",
+          "amount": "1799 kr.",
+          "time": "120 min."
+        }
+      ],
+      "details": "",
+      "billText": "<h4>A 30 minute <br/> session costs just</h4>",
+      "billAmount": "549 kr.",
+      "checkPoints": [
+        {
+          "id": 1,
+          "text": "<h4>Phone, <strong>online</strong> or in person</h4>"
+        },
+        {
+          "id": 2,
+          "text": "<h4>In doubt? Book a <strong>free 15 minute phone call</strong> with me </h4>"
+        },
+        {
+          "id": 3,
+          "text": "<h4><strong>Usual working hours</strong> are Monday to Friday, 0900-1800 CET</h4><small>Outside these hours, a 125kr. fee will be added.</small>"
+        },
+        {
+          "id": 4,
+          "text": "<h4><strong>Secure online payment</strong> with credit card or MobilePay</h4>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "/images/logo.png",
+      "popular": "MOST POPULAR",
+      "header": "24/7 ACCESS WEEKLY",
+      "subHeader": "",
+      "description": "Get 24/7 chat access - write all you want. I will respond within a few hours, all year round. Support, when you need it the most!",
+      "hourlyRates": [{}],
+      "details": "",
+      "billText": "<h4>You get billed weekly,<br/> no commitment</h4>",
+      "billAmount": "499 kr.",
+      "checkPoints": [
+        {
+          "id": 1,
+          "text": "<h4><strong>24/7 support</strong> using chat, short video or audio clips, files or photos</h4>"
+        },
+        {
+          "id": 2,
+          "text": "<h4><strong>Save 10%</strong> on all 'Hourly Rates'</h4>"
+        },
+        {
+          "id": 3,
+          "text": "<h4><strong>Your place or mine?</strong><br/>Request a session at a your place. Pay as little as 0.75 DKK pr km.</h4> "
+        },
+        {
+          "id": 4,
+          "text": "<h4><strong>No commitment</strong><br/>Cancel your access whenever you like</h4>"
+        },
+        {
+          "id": 5,
+          "text": "<h4><strong>Secure online payment</strong> with credit card or MobilePay</h4>"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "/images/logo.png",
+      "popular": "",
+      "header": "24/7 ACCESS MONTHLY",
+      "subHeader": "",
+      "description": "Get 24/7 chat access - write all you want. I will respond within a few hours, all year round. Support, when you need it the most!",
+      "hourlyRates": [{}],
+      "details": "",
+      "billText": "<h4>You get billed monthly,<br/> no commitment</h4>",
+      "billAmount": "999 kr.",
+      "checkPoints": [
+        {
+          "id": 1,
+          "text": "<h4><strong>24/7 support</strong> using chat, short video or audio clips, files or photos</h4>"
+        },
+        {
+          "id": 2,
+          "text": "<h4><strong>Save 20%</strong> on all 'Hourly Rates'</h4>"
+        },
+        {
+          "id": 3,
+          "text": "<h4><strong>Your place or mine?</strong><br/>Request a session at a your place. Pay as little as 0.10 DKK pr km.</h4> "
+        },
+        {
+          "id": 4,
+          "text": "<h4><strong>No commitment</strong><br/>Cancel your access whenever you like</h4>"
+        },
+        {
+          "id": 5,
+          "text": "<h4><strong>Secure online payment</strong> with credit card or MobilePay</h4>"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "city": "Copenhagen",
+      "area": "Moentergade 4, 3rd floor 1116 Copenhagen K",
+      "image": "/images/copenhagen.png"
+    },
+    {
+      "id": 2,
+      "city": "Svendborg",
+      "area": "Smørmosetoften 8 5700 Svendborg",
+      "image": "/images/svendborg.png"
     }
   ]
 

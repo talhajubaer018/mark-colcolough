@@ -16,7 +16,7 @@ const Header = () => {
   }, [])
 
   return (
-    <header className='flex place-items-center py-4'>
+    <header className='container mx-auto flex place-items-center py-4'>
       <div className='mr-auto'>
         <img className='w-3/5' src='/images/logo.png' />
       </div>

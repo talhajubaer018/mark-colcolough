@@ -13,9 +13,9 @@ const Footer = () => {
           <h4>5700 Svendborg</h4>
           <h4>CVR : DK38285424</h4>
         </div>
-        <div className='text-customTeal-500 text-center'>
-          <h4 className='mb-4'>+4561488488</h4>
-          <h4>hello@markcolclough.dk</h4>
+        <div className='text-center'>
+          <h4 className='mb-4 text-customTeal-500'>+4561488488</h4>
+          <h4 className='text-customTeal-500'>hello@markcolclough.dk</h4>
         </div>
         <div className='flex gap-x-8 text-customGray-700 fa-2x'>
           <div>
