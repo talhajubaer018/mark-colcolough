@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 const Layout = ({ children }) => {
   return (
-    <div className='container w-full mx-auto'>
+    <div className=''>
       <Header />
       <main>
         {children}
