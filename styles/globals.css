@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
 html,
 body {
@@ -10,6 +11,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  color: #4B4B4B;
 }
 
 * {
@@ -33,4 +37,48 @@ p {
 }
 h6 {
   font-size: 0.875rem !important; /*14px*/
+}
+
+/* .background {
+  background-image: url(/images/bg-left.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+} */
+
+.faq__desc.show-description, .faq__desc.show-payment-description {
+  height: auto;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+.color {
+  color: #62C8D8 !important;
+}
+.faq__desc {
+  margin-left: 0px;
+  padding-right: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 200ms ease-out;
+}
+.faq__question {
+  padding: 1.5rem;
+}
+.faq__question.show-description, .faq__question.show-payment-description {
+  background-color: white !important;
+}
+.faq__question button::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  margin-right: 5px;
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  color: #62C8D8;
+}
+.faq__question.show-description.faq__question button::after, .faq__question.show-payment-description.faq__question button::after {
+  transform: rotate(180deg);
+  transition: all 500ms ease;
 }
