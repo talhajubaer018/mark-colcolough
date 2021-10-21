@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import { useRouter } from 'next/dist/client/router'
+import Link from 'next/dist/client/link'
 
-import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const article = () => {
+const article = ({}) => {
+  const [services, setServices] = useState([])
+
+  const fetchData = async() => {
+    const { data } = await axios.get('/data/data.json')
+    await setServices(data.howICanHelp)
+    const s = await data.howICanHelp
+
+    const queryId = (window.location.pathname.split('/')[2])
+    const articleInfo = await s.find(x => x.id === parseInt(queryId))
+
+    {console.log(articleInfo)}
+  }
+
+  useEffect(() => {
+    fetchData()
+
+  }, [])
+
   return (
     <section className='py-12 bg-white'>
       <div className='container mx-auto'>
@@ -46,5 +66,6 @@ const article = () => {
     </section>
   )
 }
+
 
 export default article
