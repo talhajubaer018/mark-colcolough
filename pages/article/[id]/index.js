@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { useRouter } from 'next/dist/client/router'
 import Link from 'next/dist/client/link'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
