@@ -43,7 +43,7 @@ const whatdootherssay = ({  }) => {
             <div className='my-4'>
               <h4 className='mb-4'>{item.text1}</h4>
               <h4 className='mb-4'>{item.text2}</h4>
-              <Link href='#!'>
+              <Link href='/whatdootherssay/[id]' as={`/whatdootherssay/${item.id}`}>
                 <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer'>
                   Read More
                   <FontAwesomeIcon className='ml-2' icon={['fas', 'long-arrow-alt-right']} />
