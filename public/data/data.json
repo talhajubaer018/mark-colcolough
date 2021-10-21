@@ -60,49 +60,105 @@
       "id": 1,
       "image": "/icons/icon-1.png",
       "title": "Individual psychotherapy",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     },
     {
       "id": 2,
       "image": "/icons/icon-2.png",
       "title": "Couples counselling",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     },
     {
       "id": 3,
       "image": "/icons/icon-3.png",
       "title": "Business coaching",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     },
     {
       "id": 4,
       "image": "/icons/icon-4.png",
       "title": "Choosing the right access plan for you",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     },
     {
       "id": 5,
       "image": "/icons/icon-5.png",
       "title": "Free 15-minute conversation",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     },
     {
       "id": 6,
       "image": "/icons/icon-6.png",
       "title": "Online sessions - or in person?",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     },
     {
       "id": 7,
       "image": "/icons/icon-7.png",
       "title": "Do you have a referral from your Doctor?",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     },
     {
       "id": 8,
       "image": "/icons/icon-8.png",
       "title": "Your place or mine?",
-      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients."
+      "text" : "In order to offer you (and your partner) support when you need it most, I have complied a 24/7 support package for all of my active clients.",
+      "headlineTwo": "Headline 2",
+      "headlineTwoTextOne": "H2T1",
+      "quote": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum.",
+      "headlineTwoTextTwo": "H2T2",
+      "headlineThree": "Headline 3",
+      "headlineThreeText": "H3T",
+      "articleImage": "/images/mark.png"
     }
   ],
   "whatDoOthersSay": [
