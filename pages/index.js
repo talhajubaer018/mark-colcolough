@@ -62,7 +62,7 @@ export default function Home() {
             <div className='mt-8'>
               <h4 className='relative'>
                 I will respond to your needs, within a few hours, all year round.
-                <img className='absolute w-7 -top-full left-0 transform translate-x-full' src='/icons/icon-quote.png' />
+                <img className='absolute w-7 md:top-0 lg:-top-0 left-0 transform md:-translate-x-full md:-translate-y-1/2 lg:translate-x-full' src='/icons/icon-quote.png' />
               </h4>
               <img className='mx-auto w-2/12 mt-4' src='/images/signature.png' />
             </div>
@@ -160,11 +160,11 @@ export default function Home() {
             <h4 className='font-light text-center'>If you would like to meet in person, we could either do so at your place, if you are a subscriber, or at my places in Copenhagen or Svendborg.</h4>
             <Locations locations={locations} />
             <h1 className='text-center text-customYellow-500 font-light py-8'>Get in touch</h1>
-            <div className='w-1/2 grid grid-cols-1/2 place-items-center shadow-custom mx-auto mb-16'>
+            <div className='md:w-3/4 lg:w-1/2 grid grid-cols-1/2 place-items-center shadow-custom mx-auto mb-16'>
               <div>
                 <img src='/images/mark-small.png' alt='mark' />
               </div>
-              <div className='w-4/6'>
+              <div className='md:w-5/6 lg:w-4/6'>
                 <h3 className='mb-2'>Say hello!</h3>
                 <div className='mb-8'>
                   <h4><span className='text-customTeal-500'>Chat</span> with me</h4>
