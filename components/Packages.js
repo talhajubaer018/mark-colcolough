@@ -10,11 +10,10 @@ const Packages = ({ packages }) => {
       {
         packages.map((item) => (
           <div key={item.id} className={`p-6 rounded-lg relative` + ' ' + (item.id === 1 ? 'bg-customGray-200' : item.id === 2 ? 'bg-customTeal-300' : item.id === 3 && 'bg-customLavender-300')}>
-
             <div className='flex place-items-center mb-8'>
-              <img className='w-1/5 mr-4' src={item.image} />
+              <img className='w-1/5' src={item.image} />
               <div className='ml-auto text-right relative pt-8'>
-                <div className='absolute top-0 right-0 text-18 text-customYellow-500 font-bold'>{item.popular}</div>
+                <div className='absolute top-0 right-0 text-18 text-customYellow-500 font-bold md:w-screen lg:auto'>{item.popular}</div>
                 <h2 className='text-30 font-bold'>{item.header}</h2>
                 <h6 className='text-customGray-400 font-light'>{item.subHeader}</h6>
               </div>
