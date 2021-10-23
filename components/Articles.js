@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Articles = ({ services }) => {
   return (
-    <div className='grid grid-cols-3 sm:gap-x-8 xl:gap-x-16'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 sm:gap-x-8 xl:gap-x-16'>
       {services.map(service => (
-      <div key={service.id} className='mb-16'>
+      <div key={service.id} className='mb-8 sm:mb-16'>
         <div className='flex gap-x-4'>
-          <div className='sm:w-1/2 lg:w-auto mt-1'>
+          <div className='w-1/2 sm:w-1/2 lg:w-auto mt-1'>
             <img src={service.image} />
           </div>
           <div className='text-customGray-900 font-light'>
