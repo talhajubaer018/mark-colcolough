@@ -26,7 +26,7 @@ const Feedback = ({ feedback }) => {
     <div className='bg-customGray-300 py-8'>
       <div className='container mx-auto'>
         <h1 className='font-light text-center text-customYellow-500 pt-12'>What do others say</h1>
-        <div className='grid grid-cols-3 place-items-center my-16 w-4/5 mx-auto sm:gap-x-4 sm:gap-y-16 lg:gap-x-16 lg:gap-y-24'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-y-16 place-items-center my-16 w-4/5 mx-auto sm:gap-x-4 sm:gap-y-16 lg:gap-x-16 lg:gap-y-24'>
           {
             feedback.slice(0,3).map(item => (
               <div key={item.id} className='shadow-custom rounded-lg p-4'>

@@ -44,7 +44,7 @@ const Accordion = ({ booking, paymentFAQ }) => {
 
   return (
     <div>
-      <div className='grid grid-cols-2 gap-x-24'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-24'>
         <div>
           <h2 className='p-6'>Booking</h2>
           <div>

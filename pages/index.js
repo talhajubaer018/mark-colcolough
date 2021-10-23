@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div className=''>
       <section className='background'>
-        <section className='container mx-auto grid grid-cols-3/2 place-items-center text-center'>
+        <section className='container mx-auto grid grid-cols-1 sm:grid-cols-3/2 place-items-center text-center'>
           <div>
             <h1 className='text-customYellow-500 font-medium'>Support, when you need it most</h1>
             <p className='font-light'>
@@ -62,19 +62,19 @@ export default function Home() {
             <div className='mt-8'>
               <h4 className='relative'>
                 I will respond to your needs, within a few hours, all year round.
-                <img className='absolute w-7 md:top-0 lg:-top-0 left-0 transform md:-translate-x-full md:-translate-y-1/2 lg:translate-x-full' src='/icons/icon-quote.png' />
+                <img className='absolute w-7 top-0 left-0 transform traslate-x-0 -translate-y-full md:-translate-x-full md:-translate-y-1/2 lg:translate-x-full' src='/icons/icon-quote.png' />
               </h4>
               <img className='mx-auto w-2/12 mt-4' src='/images/signature.png' />
             </div>
           </div>
           <div className='w-full'>
-            <img className='w-1/2 mx-auto' src='/images/logo.svg' />
+            <img className='w-1/2 mx-auto hidden sm:block' src='/images/logo.svg' />
           </div>
         </section>
-        <section className='flex place-items-center justify-center my-16 gap-x-8'>
-          <div ref={panelOne} className='flex place-items-center justify-center bg-customGray-200 p-4 rounded-lg'>
-            <img className='w-15p' src='/icons/icon-timer.png' />
-            <div className='w-3/4 text-center'>
+        <section className='flex place-items-center justify-center my-16 gap-x-2 sm:gap-x-8'>
+          <div ref={panelOne} className='flex flex-col sm:flex-row place-items-center justify-center bg-customGray-200 p-4 rounded-lg'>
+            <img className='w-1/3 sm:w-15p' src='/icons/icon-timer.png' />
+            <div className='w-full sm:w-3/4 text-center'>
               <h3 className='text-customTeal-500'>
                 Hourly rates
                 <FontAwesomeIcon className='ml-2' icon={['fas', 'long-arrow-alt-right']} />
@@ -82,9 +82,9 @@ export default function Home() {
               <h6>Prices from 999 kr. per hour</h6>
             </div>
           </div>
-          <div ref={panelTwo} className='flex place-items-center justify-center bg-customTeal-300 p-4 rounded-lg'>
-            <img className='w-15p' src='/icons/icon-pamphlet.png' />
-            <div className='w-3/4 text-center'>
+          <div ref={panelTwo} className='flex flex-col sm:flex-row place-items-center justify-center bg-customTeal-300 p-4 rounded-lg'>
+            <img className='w-1/3 sm:w-15p' src='/icons/icon-pamphlet.png' />
+            <div className='w-full sm:w-3/4 text-center'>
               <h6 className='text-customYellow-500 text-11 font-bold'>MOST POPULAR</h6>
               <h3 className='text-customTeal-500'>
                 24/7 access
@@ -96,17 +96,17 @@ export default function Home() {
         </section>
         <section className='container mx-auto flex place-items-center justify-around gap-x-8 lg:w-1/2 my-16'>
           {services.map(service => (
-            <div key={service.id}>
-              <img className='w-15p mx-auto mb-2' src={service.icon} />
+            <div className='text-center' key={service.id}>
+              <img className='w-1/2 sm:w-15p mx-auto mb-2' src={service.icon} />
               <h4>{service.text}</h4>
             </div>
           ))}
         </section>
-        <section className='bg-customGray-200'>
+        <section className='bg-white sm:bg-customGray-200'>
           <h1 className='text-customYellow-500 font-light text-center py-16'>How I can help</h1>
-          <div className='grid grid-cols-2 place-items-center '>
+          <div className='grid grid-cols-1 sm:grid-cols-2 place-items-center '>
             {allServices.map(item => (
-              <div key={item.id} className='flex gap-x-8 w-1/2 mx-auto mb-8'>
+              <div key={item.id} className='flex gap-x-8 w-full sm:w-1/2 mx-auto mb-8'>
                 <img className='w-8 h-8' src={item.image} />
                 <h2 className='font-light'>
                   {item.title}
@@ -116,7 +116,7 @@ export default function Home() {
           ))}
           </div>
           <Link href='#!'>
-            <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer text-center py-8'>
+            <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer text-left sm:text-center py-8'>
               See all articles
               <FontAwesomeIcon className='ml-2' icon={['fas', 'long-arrow-alt-right']} />
             </h4>
@@ -135,7 +135,7 @@ export default function Home() {
       </section>
       <section className='py-8'>
         <h1 className='text-center text-customYellow-500 font-light'>Meet Mark</h1>
-        <div className='w-1/4 mx-auto py-8'>
+        <div className='w-auto sm:w-1/4 mx-auto py-8'>
           <img src='/images/iframe.png' alt='iframe' />
         </div>
         <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer text-center py-8'>

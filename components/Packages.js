@@ -6,7 +6,7 @@ import Button from '../components/Button'
 const Packages = ({ packages }) => {
 
   return (
-    <div className='grid grid-cols-3 w-4/5 mx-auto gap-x-8'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:-gap-y-0 w-full sm:w-4/5 mx-auto gap-x-8'>
       {
         packages.map((item) => (
           <div key={item.id} className={`p-6 rounded-lg relative` + ' ' + (item.id === 1 ? 'bg-customGray-200' : item.id === 2 ? 'bg-customTeal-300' : item.id === 3 && 'bg-customLavender-300')}>
@@ -29,7 +29,7 @@ const Packages = ({ packages }) => {
               ))}
             </div>
             <div className='flex place-items-center justify-end'>
-              <div dangerouslySetInnerHTML={{ __html: item.billText }} className='text-right font-light w-full'></div>
+              <div dangerouslySetInnerHTML={{ __html: item.billText }} className='text-right font-light w-1/2 sm:w-full'></div>
               <h1 className='text-50 font-bold w-full text-right'>{item.billAmount}</h1>
             </div>
             <div className='flex flex-col mt-8 mb-24'>
