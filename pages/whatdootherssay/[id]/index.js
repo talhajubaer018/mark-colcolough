@@ -6,10 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const whatDoOthersSay = () => {
   return (
-    <section className='py-12 bg-white'>
+    <section className='w-10/12 sm:w-auto mx-auto py-12 bg-white'>
       <div className='container mx-auto'>
         <div className='relative mb-8'>
-          <div className='absolute left-0 top-1/2 transform -translate-y-1/2'>
+          <div className='absolute left-0 top-0 sm:top-1/2 transform -translate-y-full sm:-translate-y-1/2'>
             <Link href='/whatdootherssay'>
               <a>
                 <h4 className='text-18 text-customTeal-500 hover:text-customYellow-500'>
@@ -21,9 +21,9 @@ const whatDoOthersSay = () => {
           </div>
           <h1 className='text-customYellow-500 text-center'>What Do Others Say</h1>
         </div>
-        <div className='grid grid-cols-3/2 gap-x-24'>
+        <div className='grid grid-cols-1 sm:grid-cols-3/2 gap-x-24'>
           <div>
-            <div className='shadow-custom p-12 rounded-lg'>
+            <div className='shadow-custom p-4 sm:p-12 rounded-lg'>
               <div className='relative mt-4'>
                 <div className='absolute left-0 -top-1/2'>
                   <img className='w-1/3' src='/icons/icon-quote.png' />
@@ -38,7 +38,7 @@ const whatDoOthersSay = () => {
               <h4 className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud.</h4>
               <h4 className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud.</h4>
             </div>
-            <div className='flex mt-12'>
+            <div className='flex mb-12 sm:mb-0 mt-12 gap-x-12 sm:gap-x-0'>
               <Link href='/#!'>
                 <a>
                   <h4 className='text-18 text-customTeal-500 hover:text-customYellow-500'>
