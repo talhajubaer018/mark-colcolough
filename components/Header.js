@@ -18,7 +18,7 @@ const Header = () => {
   }, [])
 
   return (
-    <header className='container mx-auto flex place-items-center py-4'>
+    <header className='w-11/12 sm:w-auto container mx-auto flex place-items-center py-4'>
       <Link href='/'>
         <div className='mr-auto cursor-pointer'>
           <img className='w-3/5' src='/images/logo.png' />
