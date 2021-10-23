@@ -48,6 +48,17 @@ h6 {
   background-position: left bottom;
   background-repeat: no-repeat;
 } */
+.navbar-hidden {
+  transform: translateX(100%);
+  transition: all 300ms ease;
+  display: none !important;
+}
+.navbar-show {
+  transform: translate(0);
+  transition: all 300ms ease;
+  display: block;
+
+}
 
 .faq__desc.show-description, .faq__desc.show-payment-description {
   height: auto;
