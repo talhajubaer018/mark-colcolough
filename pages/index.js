@@ -48,7 +48,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className=''>
+    <div className='w-11/12 sm:w-auto mx-auto'>
       <section className='background'>
         <section className='container mx-auto grid grid-cols-1 sm:grid-cols-3/2 place-items-center text-center'>
           <div>
@@ -64,7 +64,7 @@ export default function Home() {
                 I will respond to your needs, within a few hours, all year round.
                 <img className='absolute w-7 top-0 left-0 transform traslate-x-0 -translate-y-full md:-translate-x-full md:-translate-y-1/2 lg:translate-x-full' src='/icons/icon-quote.png' />
               </h4>
-              <img className='mx-auto w-2/12 mt-4' src='/images/signature.png' />
+              <img className='mx-auto w-5/12 sm:w-2/12 mt-4' src='/images/signature.png' />
             </div>
           </div>
           <div className='w-full'>
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='container mx-auto flex place-items-center justify-around gap-x-8 lg:w-1/2 my-16'>
+        <section className='container mx-auto flex place-items-center justify-around gap-x-2 sm:gap-x-8 lg:w-1/2 my-16'>
           {services.map(service => (
             <div className='text-center' key={service.id}>
               <img className='w-1/2 sm:w-15p mx-auto mb-2' src={service.icon} />
