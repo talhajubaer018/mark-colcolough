@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div className='flex flex-col sm:grid grid-cols-1 sm:grid-cols-3 place-items-center bg-customTeal-200 py-8'>
-        <SocialIcons propClass={'block sm:hidden'} />
+        <SocialIcons propClass={'block sm:hidden mb-4'} />
         <div className='font-light text-center'>
           <h4 className='font-bold'>Mark Colcolough</h4>
           <h4>ShareThisRide ApS</h4>
