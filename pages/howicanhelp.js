@@ -3,7 +3,7 @@ import axios from 'axios'
 
 import Articles from '../components/Articles'
 
-const howicanhelp = ({  }) => {
+const Howicanhelp = ({  }) => {
   const [services, setServices] = useState([])
 
   const fetchData = async() => {
@@ -24,4 +24,4 @@ const howicanhelp = ({  }) => {
   )
 }
 
-export default howicanhelp
+export default Howicanhelp

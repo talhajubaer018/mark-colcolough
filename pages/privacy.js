@@ -3,7 +3,7 @@ import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 
-const privacy = ({  }) => {
+const Privacy = ({  }) => {
   const [privacy, setPrivacy] = useState([])
 
   const fetchData = async() => {
@@ -39,4 +39,4 @@ const privacy = ({  }) => {
   )
 }
 
-export default privacy
+export default Privacy

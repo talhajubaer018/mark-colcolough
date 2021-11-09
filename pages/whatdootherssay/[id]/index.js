@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import axios from 'axios'
 import Link from 'next/dist/client/link'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const whatDoOthersSay = () => {
+const WhatDoOthersSay = () => {
   return (
     <section className='w-10/12 sm:w-auto mx-auto py-12 bg-white'>
       <div className='container mx-auto'>
@@ -85,4 +84,4 @@ const whatDoOthersSay = () => {
   )
 }
 
-export default whatDoOthersSay
+export default WhatDoOthersSay

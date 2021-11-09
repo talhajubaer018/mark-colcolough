@@ -28,7 +28,7 @@ const Navbar = ({ navItems }) => {
         <FontAwesomeIcon onClick={crossClickHandler} className='cursor-pointer hover:text-customTeal-500 ml-auto fa-2x z-50' icon={['fas', 'times']} />
         {navItems.map(item => (
           <Link key={item.id} href={`/${item.title.replace(/\?/g, '').replace(/\s/g, '').toLowerCase()}`}>
-            <h3 className='text-customYellow-500 hover:text-customTeal-500 cursor-pointer'>
+            <h3 onClick={crossClickHandler} className='text-customYellow-500 hover:text-customTeal-500 cursor-pointer'>
               {item.title}
             </h3>
           </Link>

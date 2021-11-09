@@ -4,7 +4,7 @@ import Link from 'next/dist/client/link'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const article = ({}) => {
+const Article = ({}) => {
   const [services, setServices] = useState([])
 
   const fetchData = async() => {
@@ -20,7 +20,6 @@ const article = ({}) => {
 
   useEffect(() => {
     fetchData()
-
   }, [])
 
   return (
@@ -86,4 +85,4 @@ const article = ({}) => {
 }
 
 
-export default article
+export default Article

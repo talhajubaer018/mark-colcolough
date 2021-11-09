@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const meetmark = ({  }) => {
+const MeetMark = ({  }) => {
   const [meetMark, setMeetMark] = useState([])
 
   const fetchData = async() => {
@@ -18,7 +18,7 @@ const meetmark = ({  }) => {
         <h1 className='text-center mb-4 sm:mb-12 text-customYellow-500'>Meet Mark</h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-8 sm:gap-y-0 gap-x-0 sm:gap-x-8'>
           <div>
-            <img src='/images/mark.png' />
+            <img src='/images/mark.png'/>
           </div>
           <div>
             {meetMark.map(data => (
@@ -46,4 +46,4 @@ const meetmark = ({  }) => {
   )
 }
 
-export default meetmark
+export default MeetMark

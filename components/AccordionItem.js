@@ -1,8 +1,8 @@
 import React from 'react'
 
-const AccordionItem = ({ showDescription, ariaExpanded, color, item, index, onClick }) => {
+const AccordionItem = ({ key, showDescription, ariaExpanded, color, item, index, onClick }) => {
   return (
-    <div className={`faq__question relative ${showDescription}`} key={item.id}>
+    <div key={key} className={`faq__question relative ${showDescription}`} key={item.id}>
       <button
         aria-expanded={ariaExpanded}
         aria-controls={`faq${index + 1}_desc`}

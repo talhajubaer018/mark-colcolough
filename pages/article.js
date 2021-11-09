@@ -6,7 +6,7 @@ import Link from 'next/dist/client/link'
 // import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const article = () => {
+const Article = () => {
   const [services, setServices] = useState([])
 
   const router = useRouter()
@@ -65,4 +65,4 @@ const article = () => {
 }
 
 
-export default article
+export default Article
