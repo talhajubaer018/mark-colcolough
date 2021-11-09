@@ -13,6 +13,7 @@ const Accordion = ({ booking, paymentFAQ }) => {
     const ariaExpanded = index === activeIndex ? "true" : "false";
     return (
       <AccordionItem
+        key={item.id}
         showDescription={showDescription}
         color={color}
         ariaExpanded={ariaExpanded}
