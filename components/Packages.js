@@ -6,7 +6,7 @@ import Button from '../components/Button'
 const Packages = ({ packages, id }) => {
 
   return (
-    <div id={id} className='grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:-gap-y-0 w-full sm:w-4/5 mx-auto gap-x-8'>
+    <div id={id} className='grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:-gap-y-0 w-full sm:w-full mx-auto gap-x-8'>
       {
         packages.map((item) => (
           <div key={item.id} className={`p-6 rounded-lg relative` + ' ' + (item.id === 1 ? 'bg-customGray-200' : item.id === 2 ? 'bg-customTeal-300' : item.id === 3 && 'bg-customLavender-300')}>

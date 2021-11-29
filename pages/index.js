@@ -110,9 +110,9 @@ export default function Home() {
         </section>
         <section className='bg-white sm:bg-customGray-200'>
           <h1 className='text-customYellow-500 font-light text-center py-16'>How I can help</h1>
-          <div className='grid grid-cols-1 sm:grid-cols-2 place-items-center '>
+          <div className='grid grid-cols-1 sm:grid-cols-2 container mx-auto px-20 gap-x-20 place-items-center '>
             {allServices.map(item => (
-              <div key={item.id} className='flex gap-x-8 w-full sm:w-1/2 mx-auto mb-8'>
+              <div key={item.id} className='flex gap-x-8 w-full sm:w-full mx-auto mb-8'>
                 <img className='w-8 h-8' src={item.image} />
                 <h2 className='font-light'>
                   {item.title}
@@ -129,7 +129,7 @@ export default function Home() {
           </Link>
         </section>
       </section>
-      <section className='mb-8'>
+      <section className='mb-8 container mx-auto pb-12'>
         <div className='text-center py-16 font-light'>
           <h1 className='text-customYellow-500 mb-4'>What does it cost?</h1>
           <h4>All prices are in DKK. 25% VAT will be added for corporate clients. </h4>

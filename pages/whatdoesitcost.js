@@ -16,7 +16,7 @@ const WhatDoesItCost = () => {
     },[])
 
   return (
-    <section className='py-12'>
+    <section className='py-12 container mx-auto'>
       <Packages packages={packages} />
     </section>
   )
