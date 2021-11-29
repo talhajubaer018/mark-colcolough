@@ -60,7 +60,7 @@ const Accordion = ({ booking, paymentFAQ }) => {
           </div>
         </div>
       </div>
-      <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer text-center py-8'>
+      <h4 className='text-customTeal-500 hover:text-customYellow-hover cursor-pointer text-center py-8'>
         See all questions
         <FontAwesomeIcon className='ml-2' icon={['fas', 'long-arrow-alt-right']} />
       </h4>

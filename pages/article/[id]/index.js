@@ -29,7 +29,7 @@ const Article = ({}) => {
           <div className='absolute left-0 top-0 sm:top-1/2 transform -translate-y-full sm:-translate-y-1/2'>
             <Link href='/howicanhelp'>
               <a>
-                <h4 className='text-18 text-customTeal-500 hover:text-customYellow-500'>
+                <h4 className='text-18 text-customTeal-500 hover:text-customYellow-hover'>
                   <FontAwesomeIcon className='mr-2' icon={['fas', 'chevron-left']} />
                   Back
                 </h4>

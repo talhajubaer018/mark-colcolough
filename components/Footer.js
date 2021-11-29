@@ -20,13 +20,13 @@ const Footer = () => {
           <h4 className='mb-4 text-customTeal-500'>+4561488488</h4>
           <h4 className='text-customTeal-500'>hello@markcolclough.dk</h4>
         </div>
-        <SocialIcons propClass={'hidden sm:block'} />
+        <SocialIcons propClass={'hidden sm:flex sm:flex-row'} />
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-3 place-items-center bg-customTeal-200 pb-8'>
         <h6>© Copyright, 2021</h6>
         <h6></h6>
         <Link href='/privacy'>
-          <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer'>Privacy & Data Policy</h4>
+          <h4 className='text-customTeal-500 hover:text-customYellow-hover cursor-pointer'>Privacy & Data Policy</h4>
         </Link>
       </div>
 

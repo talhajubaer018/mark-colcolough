@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         customYellow: {
           500: '#C3872C',
+          hover: '#D8A557',
         },
         customTeal: {
           200: '#E4EEF1',

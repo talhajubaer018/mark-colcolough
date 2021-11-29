@@ -41,6 +41,12 @@ export default function Home() {
     panelTwo.current.style.width = width + 'px'
   }
 
+  const ratesCheckClick = () => {
+    const element = document.getElementById("packages");
+
+    element.scrollIntoView({behavior: "smooth"});
+  }
+
   useEffect(() => {
     getPanelHeight()
     fetchData()
@@ -72,7 +78,7 @@ export default function Home() {
           </div>
         </section>
         <section className='flex place-items-center justify-center my-16 gap-x-2 sm:gap-x-8'>
-          <div ref={panelOne} className='flex flex-col sm:flex-row place-items-center justify-center bg-customGray-200 p-4 rounded-lg'>
+          <div ref={panelOne} onClick={ratesCheckClick} className='flex flex-col sm:flex-row cursor-pointer place-items-center justify-center bg-customGray-200 p-4 rounded-lg'>
             <img className='w-1/3 sm:w-15p' src='/icons/icon-timer.png' />
             <div className='w-full sm:w-3/4 text-center'>
               <h3 className='text-customTeal-500'>
@@ -82,7 +88,7 @@ export default function Home() {
               <h6>Prices from 999 kr. per hour</h6>
             </div>
           </div>
-          <div ref={panelTwo} className='flex flex-col sm:flex-row place-items-center justify-center bg-customTeal-300 p-4 rounded-lg'>
+          <div ref={panelTwo} onClick={ratesCheckClick} className='flex flex-col sm:flex-row cursor-pointer place-items-center justify-center bg-customTeal-300 p-4 rounded-lg'>
             <img className='w-1/3 sm:w-15p' src='/icons/icon-pamphlet.png' />
             <div className='w-full sm:w-3/4 text-center'>
               <h6 className='text-customYellow-500 text-11 font-bold'>MOST POPULAR</h6>
@@ -116,7 +122,7 @@ export default function Home() {
           ))}
           </div>
           <Link href='#!'>
-            <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer text-left sm:text-center py-8'>
+            <h4 className='text-customTeal-500 hover:text-customYellow-hover cursor-pointer text-left sm:text-center py-8'>
               See all articles
               <FontAwesomeIcon className='ml-2' icon={['fas', 'long-arrow-alt-right']} />
             </h4>
@@ -128,17 +134,17 @@ export default function Home() {
           <h1 className='text-customYellow-500 mb-4'>What does it cost?</h1>
           <h4>All prices are in DKK. 25% VAT will be added for corporate clients. </h4>
         </div>
-        <Packages packages={packages} />
+        <Packages id='packages' packages={packages} />
       </section>
       <section>
         <Feedback feedback={feedback} />
       </section>
       <section className='py-8'>
-        <h1 className='text-center text-customYellow-500 font-light'>Meet Mark</h1>
+        <h1 className='text-center text-customYellow-500 font-light py-4'>Meet Mark</h1>
         <div className='w-auto sm:w-1/4 mx-auto py-8'>
           <img src='/images/iframe.png' alt='iframe' />
         </div>
-        <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer text-center py-8'>
+        <h4 className='text-customTeal-500 hover:text-customYellow-hover cursor-pointer text-center py-8'>
           Read more about me
           <FontAwesomeIcon className='ml-2' icon={['fas', 'long-arrow-alt-right']} />
         </h4>
@@ -160,7 +166,7 @@ export default function Home() {
             <h4 className='font-light text-center'>If you would like to meet in person, we could either do so at your place, if you are a subscriber, or at my places in Copenhagen or Svendborg.</h4>
             <Locations locations={locations} />
             <h1 className='text-center text-customYellow-500 font-light py-8'>Get in touch</h1>
-            <div className='md:w-3/4 lg:w-1/2 grid grid-cols-1/2 place-items-center shadow-custom mx-auto mb-16'>
+            <div className='md:w-3/4 lg:w-1/2 grid grid-cols-1/2 place-items-center shadow-custom mx-auto mb-24'>
               <div>
                 <img src='/images/mark-small.png' alt='mark' />
               </div>

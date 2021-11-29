@@ -11,7 +11,7 @@ const WhatDoOthersSay = () => {
           <div className='absolute left-0 top-0 sm:top-1/2 transform -translate-y-full sm:-translate-y-1/2'>
             <Link href='/whatdootherssay'>
               <a>
-                <h4 className='text-18 text-customTeal-500 hover:text-customYellow-500'>
+                <h4 className='text-18 text-customTeal-500 hover:text-customYellow-hover'>
                   <FontAwesomeIcon className='mr-2' icon={['fas', 'chevron-left']} />
                   Back
                 </h4>
@@ -40,7 +40,7 @@ const WhatDoOthersSay = () => {
             <div className='flex mb-12 sm:mb-0 mt-12 gap-x-12 sm:gap-x-0'>
               <Link href='/#!'>
                 <a>
-                  <h4 className='text-18 text-customTeal-500 hover:text-customYellow-500'>
+                  <h4 className='text-18 text-customTeal-500 hover:text-customYellow-hover'>
                     <FontAwesomeIcon className='mr-2' icon={['fas', 'chevron-left']} />
                     Previous Feedback
                   </h4>
@@ -48,7 +48,7 @@ const WhatDoOthersSay = () => {
               </Link>
               <Link href='/#!'>
                 <a className='ml-auto'>
-                  <h4 className='text-18 text-customTeal-500 hover:text-customYellow-500'>
+                  <h4 className='text-18 text-customTeal-500 hover:text-customYellow-hover'>
                     Next Feedback
                     <FontAwesomeIcon className='ml-2' icon={['fas', 'chevron-right']} />
                   </h4>
@@ -70,7 +70,7 @@ const WhatDoOthersSay = () => {
                 <h4 className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
                 <h4 className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
                 <Link href='/whatdootherssay' as={`/whatdootherssay`}>
-                  <h4 className='text-customTeal-500 hover:text-customYellow-500 cursor-pointer'>
+                  <h4 className='text-customTeal-500 hover:text-customYellow-hover cursor-pointer'>
                     Read More
                     <FontAwesomeIcon className='ml-2' icon={['fas', 'long-arrow-alt-right']} />
                   </h4>

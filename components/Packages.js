@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Button from '../components/Button'
 
-const Packages = ({ packages }) => {
+const Packages = ({ packages, id }) => {
 
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:-gap-y-0 w-full sm:w-4/5 mx-auto gap-x-8'>
+    <div id={id} className='grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:-gap-y-0 w-full sm:w-4/5 mx-auto gap-x-8'>
       {
         packages.map((item) => (
           <div key={item.id} className={`p-6 rounded-lg relative` + ' ' + (item.id === 1 ? 'bg-customGray-200' : item.id === 2 ? 'bg-customTeal-300' : item.id === 3 && 'bg-customLavender-300')}>
@@ -42,7 +42,7 @@ const Packages = ({ packages }) => {
                 ))
               }
             </div>
-            <Button btnClass={'bg-customTeal-500 text-white rounded-lg p-4 absolute w-11/12 mx-auto left-1/2 bottom-0 transform -translate-x-1/2 -translate-y-1/2 hover:bg-customYellow-500'} title='BOOK YOUR APPOINTMENT NOW'></Button>
+            <Button btnClass={'bg-customTeal-500 text-white rounded-lg p-4 absolute w-11/12 mx-auto left-1/2 bottom-0 transform -translate-x-1/2 -translate-y-1/2 hover:bg-customYellow-hover'} title='BOOK YOUR APPOINTMENT NOW'></Button>
           </div>
         ))
       }

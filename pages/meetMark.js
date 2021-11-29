@@ -13,10 +13,10 @@ const MeetMark = ({  }) => {
   }, [])
 
   return (
-    <section className='py-8 w-11/12 sm:w-full mx-auto'>
+    <section className='py-8 mb-12 w-11/12 sm:w-full mx-auto'>
       <div className='container mx-auto'>
         <h1 className='text-center mb-4 sm:mb-12 text-customYellow-500'>Meet Mark</h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-8 sm:gap-y-0 gap-x-0 sm:gap-x-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-1/2 gap-y-8 sm:gap-y-0 gap-x-0 sm:gap-x-8'>
           <div>
             <img src='/images/mark.png'/>
           </div>
@@ -29,7 +29,7 @@ const MeetMark = ({  }) => {
             ))}
             <div className='mt-4'>
               <p className='mb-8'>You are welcome to download the {' '}
-                <span className='text-customTeal-500 cursor-pointer hover:text-customYellow-500'>ethical guidelines</span> {' '}
+                <span className='text-customTeal-500 cursor-pointer hover:text-customYellow-hover'>ethical guidelines</span> {' '}
                 I adhere to from the UKCP Ethical Guidelines.
               </p>
               <p className='mb-4'>Are you in a situation that you need help solving?</p>

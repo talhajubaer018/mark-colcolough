@@ -2,7 +2,7 @@ import React from 'react'
 
 const Locations = ({ locations }) => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-12 sm:gap-y-0 place-items-center py-8 mb-0 sm:mb-24'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-12 sm:gap-y-0 place-items-center mb-0 sm:mb-16'>
       {
         locations.map(location => (
           <div key={location.id}>

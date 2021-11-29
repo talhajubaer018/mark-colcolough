@@ -15,11 +15,11 @@ const Privacy = ({  }) => {
   }, [])
 
   return (
-    <section className='w-11/12 sm:w-auto mx-auto py-8'>
+    <section className='w-11/12 sm:w-auto mx-auto py-8 mb-12'>
       <div className='container mx-auto'>
         <div className='relative'>
           <Link href='/'>
-            <span className='absolute left-0 top-0 sm:top-1/2 transform -translate-y-full sm:-translate-y-1/2 text-18 text-customTeal-500 hover:text-customYellow-500 cursor-pointer'>
+            <span className='absolute left-0 top-0 sm:top-1/2 transform -translate-y-full sm:-translate-y-1/2 text-18 text-customTeal-500 hover:text-customYellow-hover cursor-pointer'>
               <FontAwesomeIcon className='mr-2' icon={['fas', 'chevron-left']} />
               Back
             </span>
