@@ -64,6 +64,12 @@ h6 {
   height: auto;
   margin-bottom: 1rem;
   padding: 1.5rem;
+  transition: all 500ms ease;
+}
+.faq__desc {
+  height: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .color {
   color: #62C8D8 !important;
@@ -75,7 +81,7 @@ h6 {
   margin-bottom: 0;
   height: 0;
   overflow: hidden;
-  transition: all 200ms ease-out;
+  transition: all 500ms ease;
 }
 .faq__question {
   padding: 1.5rem;
@@ -92,6 +98,8 @@ h6 {
   display: flex;
   margin-left: auto;
   color: #62C8D8;
+
+  transition: all 500ms ease;
 }
 .faq__question.show-description.faq__question button::after, .faq__question.show-payment-description.faq__question button::after {
   transform: rotate(180deg);

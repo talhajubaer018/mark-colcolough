@@ -8,19 +8,25 @@ const Accordion = ({ booking, paymentFAQ }) => {
   const [activePaymentIndex, setActivePaymentIndex] = useState()
 
   const renderedBooking = booking.map((item, index) => {
-    const showDescription = index === activeIndex ? "show-description" : "";
+    const showDescription = index === activeIndex ? "show-description" : "dsd";
     const color = index === activeIndex ? "color" : "";
     const ariaExpanded = index === activeIndex ? "true" : "false";
     return (
       <AccordionItem
-        key={item.id}
+        keys={item.id}
         showDescription={showDescription}
         color={color}
+        id={index}
+        desc__id={`faq${index + 1}_desc`}
         ariaExpanded={ariaExpanded}
         item={item}
         index={index}
         onClick={() => {
           setActiveIndex(index);
+          const item = document.getElementById(index)
+          item.classList.toggle('show-description')
+          const desc = document.getElementById(`faq${index + 1}_desc`)
+          desc.classList.toggle('show-description')
         }}
       />
     );
@@ -31,14 +37,20 @@ const Accordion = ({ booking, paymentFAQ }) => {
     const ariaExpanded = index === activePaymentIndex ? "true" : "false";
     return (
       <AccordionItem
-        key={item.id}
+        keys={item.id}
         showDescription={showDescription}
         color={color}
+        id={index + 100}
+        desc__id={`faq${index + 1}_payment_desc`}
         ariaExpanded={ariaExpanded}
         item={item}
-        index={index}
+        index={index + 100}
         onClick={() => {
           setActivePaymentIndex(index);
+          const item = document.getElementById(index + 100)
+          item.classList.toggle('show-payment-description')
+          const desc = document.getElementById(`faq${index + 1}_payment_desc`)
+          desc.classList.toggle('show-payment-description')
         }}
       />
     );
