@@ -114,9 +114,8 @@ export default function Home() {
             {allServices.map(item => (
               <div key={item.id} className='flex gap-x-8 w-full sm:w-full mx-auto mb-8'>
                 <img className='w-8 h-8' src={item.image} />
-                <h2 className='font-light'>
+                <h2 className='font-light service_name relative'>
                   {item.title}
-                  <FontAwesomeIcon className='ml-2 text-customTeal-500' icon={['fas', 'long-arrow-alt-right']} />
                 </h2>
               </div>
           ))}
